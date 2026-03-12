@@ -6,7 +6,7 @@ import { defineConfig } from "vite"
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [vue(), tailwindcss()],
-	base: "/autodrive_table/",
+	// base: "/autodrive_table/",
 	resolve: {
 		alias: {
 			"@": fileURLToPath(new URL("./src", import.meta.url)),
